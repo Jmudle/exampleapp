@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route('/')
 @app.route('/home')
 def home():
-    return 'This is the home page'
+    return 'This is the GREATEST home page anyone has ever created'
 
 @app.route('/about')
 def about():
