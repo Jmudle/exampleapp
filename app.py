@@ -9,7 +9,7 @@ def home():
 
 @app.route('/about')
 def about():
-    return 'This is the about page'
+    return 'This is the most amazing about page EVER!!!'
 
 if __name__ == "__main__":
     app.run(debug=True, host='0.0.0.0', port=5000)
